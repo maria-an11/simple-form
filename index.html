@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <link href="index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main class="my-50 mx-auto">
+      <div class="container">
+        <h2 class="form-title">Fill out the form</h2>
+        <form class="form">
+          <div class="columns">
+            <input name="firstName" placeholder="First name" required />
+            <input name="lastName" placeholder="Last name" required />
+            <input
+              name="age"
+              placeholder="Age"
+              type="number"
+              min="0"
+              required
+            />
+          </div>
+          <input name="address" placeholder="Address" required />
+          <div class="columns">
+            <input name="placeOfWork" placeholder="Place of work" required />
+            <input name="jobTitle" placeholder="Job title" required />
+          </div>
+          <div class="columns">
+            <input
+              name="phoneNumber"
+              placeholder="Phone number"
+              type="tel"
+              required
+            />
+            <input name="linkedin" placeholder="LinkedIn" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
