@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Node modules (if you ever add JS tooling)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel output (optional, if you have build artifacts)
+.vercel/
+
+# Editor backups and settings (add yours if you use a different editor)
+*.swp
+*.swo
+.vscode/
+.idea/
